@@ -1,15 +1,16 @@
 #include<bits/stdc++.h>
+#define ll long long
 using namespace std;
 int main()
 {
-  int t;
+  ll t;
   cin>>t;
   while(t--)
   {
-    int n;
+    ll n;
     cin>>n;
-    long a[n],b[n];
-    long min;
+    ll a[n],b[n];
+    ll min;
     for(int i=0;i<n;i++)
     {cin>>a[i];
       b[i]=a[i];
